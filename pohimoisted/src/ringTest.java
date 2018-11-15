@@ -5,8 +5,8 @@ public class ringTest {
        // minuRing.raadius = 2.7;
 
 
-        minuRing.pindala();
+        minuRing.ringiKirjeldus();
         Ring punaneRing = new Ring(2.7);
-        punaneRing.pindala();
+        punaneRing.ringiKirjeldus();
     }
 }
