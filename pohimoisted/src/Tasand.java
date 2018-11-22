@@ -6,6 +6,8 @@ public class Tasand {
         punktA.valjastaKirjeldus();
         punktB.valjastaKirjeldus();
 
+        Sirge sirgeAB = new Sirge("AB", punktA, punktB);
+        sirgeAB.valjastaKirjeldus();
     }
 
 }
