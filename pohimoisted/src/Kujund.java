@@ -8,11 +8,20 @@ public class Kujund {
 
 // klassi konstruktor
     public Kujund(String nimi) {
+        System.out.println("Kujund klassi konstruktor");
+        this.nimetus = nimi;
+    }
+//setterid
+    public void setNimetus(String nimi) {
         this.nimetus = nimi;
     }
 
-    public void setNimetus(String nimi) {
-        this.nimetus = nimi;
+    public void setNurkadeOlemasolus(Boolean nurkadeOlemasolus) {
+        this.nurkadeOlemasolus = nurkadeOlemasolus;
+    }
+
+    public void setNurkadeArv(Integer nurkadeArv) {
+        this.nurkadeArv = nurkadeArv;
     }
 
     //tüübi tegevused - klassi meetodid

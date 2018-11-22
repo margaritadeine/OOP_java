@@ -5,15 +5,18 @@ public class Kujundid {
         //Kujund kolmnurk = new Kujund("Kolmnurk");
 
 
-        ring.valjastaKirjeldus();
+       // ring.valjastaKirjeldus();
         /* Need read tööle ei lähe , kuna nimetus on privaatne omadus
         ring.valjastaKirjeldus();
         ring.nimetus ="Ruut";  */
 
-        ring.setNimetus("Ruut");
-        ring.valjastaKirjeldus();
+        //ring.setNimetus("Ruut");
+        //ring.valjastaKirjeldus();
 
        // ruut.valjastaKirjeldus();
        // kolmnurk.valjastaKirjeldus();
+
+        Ristkulik ristkulik = new Ristkulik("Ristkülik");
+        ristkulik.valjastaKirjeldus();
     }
 }
