@@ -15,15 +15,12 @@ public class Kujund {
     public void setNimetus(String nimi) {
         this.nimetus = nimi;
     }
-
     public void setNurkadeOlemasolus(Boolean nurkadeOlemasolus) {
         this.nurkadeOlemasolus = nurkadeOlemasolus;
     }
-
     public void setNurkadeArv(Integer nurkadeArv) {
         this.nurkadeArv = nurkadeArv;
     }
-
     public void setPindala(Double pindala) {
         this.pindala = pindala;
     }
@@ -33,15 +30,12 @@ public class Kujund {
     public String getNimetus() {
         return nimetus;
     }
-
     public Boolean getNurkadeOlemasolus() {
         return nurkadeOlemasolus;
     }
-
     public Integer getNurkadeArv() {
         return nurkadeArv;
     }
-
     public Double getPindala() {
         return pindala;
     }

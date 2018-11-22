@@ -21,10 +21,13 @@ public class Ristkulik extends Kujund {
         System.out.println("Ristkülik klassi arvutaPindala() meetod");
         this.setPindala(this.pikkus * this.laius);
         Double pindala = this.getPindala();
+        System.out.print("Pindala = ");
+
+
         if (tapsus){
             System.out.println("Pindala = " + pindala);
         } else {
-            System.out.println("Pindala = " + Math.round(pindala));
+            System.out.println( Math.round(pindala));
         }
     }
 
