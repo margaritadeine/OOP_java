@@ -24,6 +24,9 @@ public class Kujund {
         this.nurkadeArv = nurkadeArv;
     }
 
+    public void setPindala(Double pindala) {
+        this.pindala = pindala;
+    }
 
     //  getterid
 
@@ -37,6 +40,10 @@ public class Kujund {
 
     public Integer getNurkadeArv() {
         return nurkadeArv;
+    }
+
+    public Double getPindala() {
+        return pindala;
     }
 
     //tüübi tegevused - klassi meetodid

@@ -15,6 +15,14 @@ public class Ristkulik extends Kujund {
         System.out.println("Ristkuliku klassi konstruktor");
     }
 
+
+    @Override
+    public void arvutaPindala() {
+        System.out.println("Ristkülik klassi arvutaPindala() meetod");
+        this.setPindala(this.pikkus * this.laius);
+        System.out.println("Pindala = " + this.getPindala());
+    }
+
     @Override
     public void valjastaKirjeldus() {
       //  super.valjastaKirjeldus();
@@ -25,6 +33,7 @@ public class Ristkulik extends Kujund {
        if (this.getNurkadeOlemasolus()){
            System.out.println("Kokku on " + this.getNurkadeArv() + " nurka.");
        }
-        System.out.println("Nurgad =" + this.nurk +"kraadi.");
+        System.out.println("Nurgad = " + this.nurk +" kraadi.");
+        System.out.println("Pndala = " + this.getPindala());
     }
 }
