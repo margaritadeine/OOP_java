@@ -1,11 +1,10 @@
 public class Voodi {
-
     private String nimetus;
     private Integer korgus;
     private Integer lina;
     private Integer padi;
     private Integer tekk;
-
+    //    konstruktor
     public Voodi(String nimetus, Integer korgus, Integer lina, Integer padi, Integer tekk) {
         this.nimetus = nimetus;
         this.korgus = korgus;
@@ -13,8 +12,7 @@ public class Voodi {
         this.padi = padi;
         this.tekk = tekk;
     }
-
-    //getterid
+// getterid
 
     public String getNimetus() {
         return nimetus;
@@ -35,10 +33,8 @@ public class Voodi {
     public Integer getTekk() {
         return tekk;
     }
-
-    //voodi loomine
-    public void voodiLoomine(); {
+    //    voodi loomine
+    public void voodiLoomine(){
         System.out.println("Voodi on valmis");
     }
-
 }
