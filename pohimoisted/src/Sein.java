@@ -1,13 +1,12 @@
 public class Sein {
     private String suund;
 
-
-    //konstruktor
+    //  konstruktor
     public Sein(String suund) {
         this.suund = suund;
     }
 
-    //getter
+    // getter
     public String getSuund() {
         return suund;
     }
