@@ -1,4 +1,4 @@
-pupublic class Printer {
+public class Printer {
     private Integer tooneriTase;
     private Integer paberPrintimiseks;
     private Boolean kahepoolne;
