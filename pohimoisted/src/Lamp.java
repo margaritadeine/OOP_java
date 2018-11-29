@@ -2,25 +2,31 @@ public class Lamp {
     private String nimetus;
     private Boolean patarei;
     private Boolean sisseLulitatud = false;
-    //    konstruktor
+//    konstruktor
+
     public Lamp(String nimetus, Boolean patarei) {
         this.nimetus = nimetus;
         this.patarei = patarei;
     }
-    //    getterid
+//    getterid
+
     public String getNimetus() {
         return nimetus;
     }
+
     public Boolean getPatarei() {
         return patarei;
     }
+
     public Boolean getSisseLulitatud() {
         return sisseLulitatud;
     }
     // setterid
+
     public void setSisseLulitatud(Boolean sisseLulitatud) {
         this.sisseLulitatud = sisseLulitatud;
     }
+
     //    sisse/välja lülitamine
     public void lulita(){
         if(sisseLulitatud == false){
