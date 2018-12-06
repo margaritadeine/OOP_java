@@ -87,7 +87,9 @@ public class Burger {
         if (lisand4 == "salatilehed") {
             lisand4Hind = 0.90;
         }
+    }
 
-
+    public void koostaBurger () {
+        System.out.println();
     }
 }
